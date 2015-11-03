@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Writing something.]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://chrysalis.com/"/>
-  <updated>2015-11-03T15:35:33.917Z</updated>
+  <updated>2015-11-03T15:48:17.640Z</updated>
   <id>http://chrysalis.com/</id>
   
   <author>
@@ -13,6 +13,23 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[白夜行阅读笔记]]></title>
+    <link href="http://chrysalis.com/2015/11/03/%E7%99%BD%E5%A4%9C%E8%A1%8C%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/"/>
+    <id>http://chrysalis.com/2015/11/03/白夜行阅读笔记/</id>
+    <published>2015-11-03T15:47:55.000Z</published>
+    <updated>2015-11-03T15:48:17.640Z</updated>
+    <content type="html"><![CDATA[<p>##白夜行</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>##白夜行</p>
+]]>
+    </summary>
+    
+      <category term="阅读" scheme="http://chrysalis.com/tags/%E9%98%85%E8%AF%BB/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Hello World]]></title>
