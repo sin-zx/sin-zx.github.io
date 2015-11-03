@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Writing something.]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://chrysalis.com/"/>
-  <updated>2015-11-03T15:48:17.640Z</updated>
+  <updated>2015-11-03T15:53:07.767Z</updated>
   <id>http://chrysalis.com/</id>
   
   <author>
@@ -19,12 +19,10 @@
     <link href="http://chrysalis.com/2015/11/03/%E7%99%BD%E5%A4%9C%E8%A1%8C%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/"/>
     <id>http://chrysalis.com/2015/11/03/白夜行阅读笔记/</id>
     <published>2015-11-03T15:47:55.000Z</published>
-    <updated>2015-11-03T15:48:17.640Z</updated>
-    <content type="html"><![CDATA[<p>##白夜行</p>
-]]></content>
+    <updated>2015-11-03T15:53:07.767Z</updated>
+    <content type="html"><![CDATA[<h2 id="白夜行">白夜行</h2>]]></content>
     <summary type="html">
-    <![CDATA[<p>##白夜行</p>
-]]>
+    <![CDATA[<h2 id="白夜行">白夜行</h2>]]>
     </summary>
     
       <category term="阅读" scheme="http://chrysalis.com/tags/%E9%98%85%E8%AF%BB/"/>
@@ -36,7 +34,7 @@
     <link href="http://chrysalis.com/2015/11/03/Hello-World/"/>
     <id>http://chrysalis.com/2015/11/03/Hello-World/</id>
     <published>2015-11-03T15:33:54.000Z</published>
-    <updated>2015-11-03T15:35:33.917Z</updated>
+    <updated>2015-11-03T15:52:57.682Z</updated>
     <content type="html"><![CDATA[<h1 id="欢迎使用_Cmd_Markdown_编辑阅读器">欢迎使用 Cmd Markdown 编辑阅读器</h1><hr>
 <p>我们理解您需要更便捷更高效的工具记录思想，整理笔记、知识，并将其中承载的价值传播给他人，<strong>Cmd Markdown</strong> 是我们给出的答案 —— 我们为记录思想和分享知识提供更专业的工具。 您可以使用 Cmd Markdown：</p>
 <blockquote>
