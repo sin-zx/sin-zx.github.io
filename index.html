@@ -204,20 +204,7 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>javascript是弱类型语言，在为变量赋值时不需要像C/JAVA等声明变量类型，这种特性在写程序时很方便，但有时需要判断变量的类型或者变量是否存在，这时候容易把null、undefined和空字符串的判断搞混，所以在这里做一个小小的归纳，对不同的场景使用正确的判断方法。</p>
-<h3 id="以下是javascript变量可能有的几种情况">以下是javascript变量可能有的几种情况</h3><h3 id="1-_变量存在但未赋值">1. 变量存在但未赋值</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> a;  <span class="comment">//变量a存在但未赋值</span></span><br><span class="line"><span class="keyword">if</span>:</span><br><span class="line">     a == <span class="literal">undefined</span>         判断<span class="literal">true</span></span><br><span class="line">     a == <span class="literal">null</span>              判断<span class="literal">true</span></span><br><span class="line">     a===<span class="literal">undefined</span>          判断<span class="literal">true</span></span><br><span class="line">     a===<span class="literal">null</span>               判断<span class="literal">false</span></span><br><span class="line">     !a                     判断<span class="literal">true</span></span><br><span class="line"> </span><br><span class="line"> <span class="keyword">typeof</span> a == <span class="string">'undefined'</span></span><br></pre></td></tr></table></figure>
-<h3 id="2-_变量为NULL">2. 变量为NULL</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> a = NULL;   <span class="comment">//（注意此时typeof a='object'）</span></span><br><span class="line"><span class="keyword">if</span>:</span><br><span class="line">    <span class="keyword">typeof</span> a == <span class="string">'undefined'</span>     <span class="literal">false</span></span><br><span class="line">    a == <span class="literal">undefined</span>              <span class="literal">true</span></span><br><span class="line">    a === <span class="literal">undefined</span>             <span class="literal">false</span></span><br><span class="line">    !a                          <span class="literal">true</span></span><br></pre></td></tr></table></figure>
-<h3 id="3-_变量未定义/不存在">3. 变量未定义/不存在</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span>:</span><br><span class="line">    <span class="keyword">typeof</span> a == <span class="string">'undefined'</span>         <span class="literal">true</span>                                 <span class="comment">//(只有这个判断为true)</span></span><br><span class="line">	a == <span class="literal">null</span>                       <span class="literal">false</span></span><br><span class="line">	a==<span class="literal">undefined</span>                    <span class="literal">false</span></span><br><span class="line">	!a 或 a                         <span class="literal">false</span></span><br></pre></td></tr></table></figure>
-<h3 id="4-_变量为空字符串_‘’">4. 变量为空字符串 ‘’</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">a = <span class="string">''</span>;</span><br><span class="line"><span class="keyword">typeof</span> a --&gt; <span class="string">'string'</span>  </span><br><span class="line"><span class="keyword">if</span>:</span><br><span class="line">	a == <span class="literal">null</span>                       <span class="literal">false</span></span><br><span class="line">	a == <span class="literal">undefined</span>                  <span class="literal">false</span></span><br><span class="line">	!a                              <span class="literal">true</span></span><br></pre></td></tr></table></figure>
-<h3 id="一般情况下判断：">一般情况下判断：</h3><p>判断参数是否正确传递</p>
-<blockquote>
-<p>if(typeof a === ‘undefined’ || a === null )<br>    alert(‘a值出错’);</p>
-</blockquote>
-<p>判断是否为空</p>
-<blockquote>
-<p>if(!a) alert(‘a值为空’);</p>
-</blockquote>
-
+        <p>javascript是弱类型语言，在为变量赋值时不需要像C/JAVA等声明变量类型，这种特性在写程序时很方便，但有时需要判断变量的类型或者变量是否存在，这时候容易把null、undefined和空字符串的判断搞混，所以在这里做一个小小的归纳，对不同的场景使用正确的判断方法。<br>
       
     </div>
     
@@ -230,6 +217,10 @@
 
       
 
+      
+        <p class="article-more-link">
+          <a  href="/2015/11/04/（总结）判断JS变量是否为null、undefined、空字符串/#more">more >></a>
+        </p>
       
       <div class="clearfix"></div>
     </div>
